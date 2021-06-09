@@ -104,8 +104,7 @@ app.get('/', (req, res) => {
       return res.status(200).send({
         success : true
       })
-      })
-
+    })
   })
 
   // 프론트 연결 테스트1
